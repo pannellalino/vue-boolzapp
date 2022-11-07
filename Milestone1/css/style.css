@@ -5,7 +5,7 @@
 }
 
 .bg{
-  background: linear-gradient(180deg, #118675 18%, #CFD3CC 18%);
+  background: linear-gradient(180deg, #118675 15%, #CFD3CC 15%);
 }
 
 .container-c{
@@ -46,6 +46,9 @@
   width: 100%;
   height: calc(100% - 140px);
   overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 li{
@@ -87,4 +90,26 @@ i:not(.footer-page i){
   width: 100%;
   height: calc(100% - 200px);
   overflow: auto;
+}
+
+.msg-received, .msg-send{
+  width: 400px;
+  height: fit-content;
+  position: relative;
+  padding: 10px;
+}
+
+.msg-send{
+  background-color: #CCFCA9;
+}
+
+.msg-received .text, .msg-send .text{
+  font-size: .8rem;
+}
+
+.msg-received .ora, .msg-send .ora{
+  font-size: .6rem;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
 }
