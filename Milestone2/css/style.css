@@ -50,9 +50,6 @@ body{
   width: 100%;
   height: calc(100% - 140px);
   overflow-y: scroll;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
 li{
@@ -105,10 +102,14 @@ i:not(.footer-page i){
 
 .msg-received{
   background-color: white;
+  float: left;
+  clear: both;
 }
 
 .msg-send{
   background-color: #CCFCA9;
+  float: right;
+  clear: both;
 }
 
 .msg-received .text, .msg-send .text{
@@ -129,5 +130,5 @@ i:not(.footer-page i){
 
 li:hover{
   cursor: pointer;
-  background-color: rgba(107, 107, 107, 0.435);
+  background-color: rgba(153, 153, 153, 0.435);
 }
