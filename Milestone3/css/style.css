@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: lato sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .bg{
@@ -79,7 +79,7 @@ li{
 }
 
 .input-group{
-  background-color: #E5E5E5;
+  background-color: #E5E5E5
 }
 
 i:not(.footer-page i){
@@ -130,5 +130,9 @@ i:not(.footer-page i){
 
 li:hover{
   cursor: pointer;
-  background-color: rgba(153, 153, 153, 0.435);
+  background-color: rgba(229, 229, 229, 1);
+}
+
+.link-secondary{
+  font-size: .8rem;
 }

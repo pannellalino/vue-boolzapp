@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css' integrity='sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==' crossorigin='anonymous'/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">  
   <script src="https://unpkg.com/vue@3"></script>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css' integrity='sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==' crossorigin='anonymous'/>
   <title>vue-boolzapp</title>
@@ -32,11 +35,15 @@
             </div>
             <div class="notifications d-flex align-items-center p-3">
               <div class="icon rounded-circle d-flex justify-content-center align-items-center fs-5"><i class="fa-solid fa-bell-slash"></i></div>
-              <span>Ricevi notifiche di nuovi messaggi<br>Attiva notifiche desktop</span>
+              <div class="text">
+                <span>Ricevi notifiche di nuovi messaggi</span><br>
+                <span class="link-secondary text-decoration-underline">Attiva notifiche desktop</span>
+              </div>
             </div>
             <div class="p-2 input-group flex-nowrap">
               <span class="input-group-text bg-white" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
-              <input type="text" class="form-control border-start-0" placeholder="Cerca o inizia una nuova chat" aria-label="Username" aria-describedby="addon-wrapping">
+              <input v-model=""
+              type="text" class="form-control border-start-0" placeholder="Cerca o inizia una nuova chat" aria-label="Username" aria-describedby="addon-wrapping">
             </div>
             <div class="contacts">
               <ul class="p-0">
