@@ -69,9 +69,9 @@
               </div>
             </div>
             <div class="area-text p-5">
-              <div v-for="(message, index) in contacts[messages]" class="msg-received rounded mb-2">
-                <p :class="text">{{contacts[messages.message]}}</p>
-                <span :class="ora">{{date}}</span>
+              <div class="msg-received rounded mb-2">
+                <p class="text">{{contacts[messages]}}</p>
+                <span class="ora">{{date}}</span>
               </div>
               <div class="msg-send rounded">
                 <p class="text">Lorem ipsum dolor sit amet.</p>

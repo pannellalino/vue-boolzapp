@@ -12,19 +12,19 @@ createApp({
           {
             date: '15:30',
             message: 'Sai cosa stai facendo su Js?',
-            //status: 'msg-send'
+            status: 'send'
           },
-          /*{
+          {
             date: '16:00',
             message: 'No',
-            status: 'msg-received'
-          }*/
-        ]
+            status: 'received'
+          }
+         ]
         },
         {
         name: 'Fabio',
         avatar: 'img/avatar_2.jpg',
-        visible: true,
+        visible: true
         },
         {
         name: 'Samuele',
