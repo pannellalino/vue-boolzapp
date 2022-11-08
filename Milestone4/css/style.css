@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.bg{
+  background: linear-gradient(180deg, #118675 15%, #CFD3CC 15%);
+}
+
+.container-c{
+  width: 100%;
+  height: 100vh;
+}
+
+.container-page{
+  width: 80%;
+  height: 95%;
+  margin: auto;
+}
+
+.area-contact{
+  width: 500px;
+  height: 100%;
+  background-color: white;
+  border-right: 1px solid #CECECE;
+}
+
+.area-msg{
+  width: 100%;
+  height: 100%;
+}
+
+.header-page, .footer-page{
+  width: 100%;
+  height: 70px;
+  background-color: #E5E5E5;
+}
+
+.footer-page{
+  background-color: #F0EAE5;
+}
+
+.area-text{
+  background-image: url('/Milestone1/img/mine.jpg');
+  width: 100%;
+  height: calc(100% - 140px);
+  overflow-y: scroll;
+}
+
+li{
+  list-style: none;
+}
+
+.user img{
+  width: 50px;
+  height: 50px;
+}
+
+.notifications{
+  background-color: #7BD1FD;
+  width: 100%;
+  height: 70px;
+}
+
+.notifications .icon{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.notifications .icon i{
+  color: #7BD1FD;
+}
+
+.input-group{
+  background-color: #E5E5E5
+}
+
+i:not(.footer-page i){
+  margin: 5px;
+  color: #A2A2A2;
+}
+
+.contacts{
+  width: 100%;
+  height: calc(100% - 200px);
+  overflow-y: scroll;
+}
+
+.msg-received, .msg-send{
+  width: 400px;
+  height: fit-content;
+  position: relative;
+  padding: 10px;
+}
+
+.msg-received{
+  background-color: white;
+  float: left;
+  clear: both;
+}
+
+.msg-send{
+  background-color: #CCFCA9;
+  float: right;
+  clear: both;
+}
+
+.msg-received .text, .msg-send .text{
+  font-size: .8rem;
+}
+
+.msg-received .ora, .msg-send .ora{
+  font-size: .6rem;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.grigio{
+  color: grey;
+  font-size: .8rem;
+}
+
+li:hover{
+  cursor: pointer;
+  background-color: rgba(229, 229, 229, 1);
+}
+
+.link-secondary{
+  font-size: .7rem;
+}
+
+.notifiche{
+  font-size: .9rem;
+}
