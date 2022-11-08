@@ -182,14 +182,19 @@ createApp({
       }
     
       this.contacts[this.contactActive].messages.push(newMessage);
+      this.autoRisposta();
       this.newMsgString = '';
     },
     autoRisposta(){
       const newRisposta = {
-        date: '15:00',
+        date: '18:00',
         message: 'Ok!',
         status: 'received'
       }
+      this.contacts[this.contactActive].messages.push(newRisposta);
+    },
+    changeUser(){
+
     }
   }
 }).mount('#app');
