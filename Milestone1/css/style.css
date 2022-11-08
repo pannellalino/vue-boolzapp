@@ -103,6 +103,10 @@ i:not(.footer-page i){
   padding: 10px;
 }
 
+.msg-received{
+  background-color: white;
+}
+
 .msg-send{
   background-color: #CCFCA9;
 }
@@ -125,5 +129,5 @@ i:not(.footer-page i){
 
 li:hover{
   cursor: pointer;
-  background-color: rgba(60, 60, 60, 0.435);
+  background-color: rgba(107, 107, 107, 0.435);
 }

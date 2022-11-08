@@ -8,6 +8,18 @@ createApp({
         name: 'Michele',
         avatar: 'img/avatar_1.jpg',
         visible: true,
+        messages:[
+          {
+            date: '15:30',
+            message: 'Sai cosa stai facendo su Js?',
+            //status: 'msg-send'
+          },
+          /*{
+            date: '16:00',
+            message: 'No',
+            status: 'msg-received'
+          }*/
+        ]
         },
         {
         name: 'Fabio',
