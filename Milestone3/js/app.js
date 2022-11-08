@@ -30,26 +30,6 @@ createApp({
             date: '16:01',
             message: 'Bene, bravo!',
             status: 'send'
-          },
-          {
-            date: '15:30',
-            message: 'Hai portato a spasso il cane?',
-            status: 'send'
-          },
-          {
-            date: '15:30',
-            message: 'Hai steso i panni?',
-            status: 'send'
-          },
-          {
-            date: '16:00',
-            message: 'No!',
-            status: 'received'
-          },
-          {
-            date: '16:01',
-            message: 'Bene, bravo!',
-            status: 'send'
           }
          ]
         },
@@ -81,14 +61,19 @@ createApp({
         visible: true,
         messages:[
           {
-            date: '15:30',
-            message: 'Sai cosa stai facendo su Js',
+            date: '10:30',
+            message: 'La Marianna va in campagna?',
             status: 'send'
           },
           {
-            date: '16:00',
-            message: 'No',
+            date: '10:37',
+            message: 'Mi sa che hai sbagliato chat!',
             status: 'received'
+          },
+          {
+            date: '10:42',
+            message: 'Ah scusa!',
+            status: 'send'
           }
          ]
         },
@@ -99,12 +84,12 @@ createApp({
         messages:[
           {
             date: '15:30',
-            message: 'Sai cosa stai facendo su Js',
+            message: 'Lo sai che ha aperto una nuova pizzeria?',
             status: 'send'
           },
           {
             date: '16:00',
-            message: 'No',
+            message: 'Sì però preferisco il cinema',
             status: 'received'
           }
          ]
@@ -115,13 +100,13 @@ createApp({
         visible: true,
         messages:[
           {
-            date: '15:30',
-            message: 'Sai cosa stai facendo su Js',
+            date: '12:30',
+            message: 'Ricordati di chiamare la nonna',
             status: 'send'
           },
           {
-            date: '16:00',
-            message: 'No',
+            date: '12:52',
+            message: 'Sì stasera la sento!',
             status: 'received'
           }
          ]
@@ -132,12 +117,12 @@ createApp({
         visible: true,
         messages:[
           {
-            date: '15:30',
-            message: 'Sai cosa stai facendo su Js',
+            date: '16:30',
+            message: 'Ciao Claudia hai novità?',
             status: 'send'
           },
           {
-            date: '16:00',
+            date: '16:45',
             message: 'No',
             status: 'received'
           }
@@ -150,12 +135,17 @@ createApp({
         messages:[
           {
             date: '15:30',
-            message: 'Sai cosa stai facendo su Js',
+            message: 'Fai gli auguri a Martina che oggi è il suo compleanno',
             status: 'send'
           },
           {
             date: '16:00',
-            message: 'No',
+            message: 'Top',
+            status: 'received'
+          },
+          {
+            date: '16:00',
+            message: 'Mi stavo dimenticando, grazie',
             status: 'received'
           }
          ]
@@ -172,7 +162,7 @@ createApp({
           },
           {
             date: '16:00',
-            message: 'No',
+            message: 'Mmm.. Mi sa di no',
             status: 'received'
           }
          ]
