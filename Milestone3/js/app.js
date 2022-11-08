@@ -193,6 +193,13 @@ createApp({
     
       this.contacts[this.contactActive].messages.push(newMessage);
       this.newMsgString = '';
+    },
+    autoRisposta(){
+      const newRisposta = {
+        date: '15:00',
+        message: 'Ok!',
+        status: 'received'
+      }
     }
   }
 }).mount('#app');
