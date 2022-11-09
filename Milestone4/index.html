@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">  
   <script src="https://unpkg.com/vue@3"></script>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css' integrity='sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==' crossorigin='anonymous'/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.1.0/luxon.min.js" integrity="sha512-79nhbkASdW5wurW8DtF9Vd7BEDKdTbCKkh87lW6W3tk9T4L9Bc58MzmvRzjMcFCSKpjkoRjwzrTdfOa5lkfJ5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <title>vue-boolzapp</title>
 </head>
 <body>
@@ -42,7 +43,7 @@
             </div>
             <div class="p-2 input-group flex-nowrap">
               <span class="input-group-text bg-white" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
-              <input v-model=""
+              <input v-model="searchContact"
               type="text" class="form-control border-start-0" placeholder="Cerca o inizia una nuova chat" aria-label="Username" aria-describedby="addon-wrapping">
             </div>
             <div class="contacts">
