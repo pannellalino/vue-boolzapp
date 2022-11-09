@@ -203,9 +203,7 @@ createApp({
       this.contacts[this.contactActive].messages.push(newRisposta);
     },
     filteredContact(){
-      if(this.searchContact){
-        return contacts.filter(this.name);
-      }
+        this.contacts.filter(this.name);
     }
   }
 }).mount('#app');
