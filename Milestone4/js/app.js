@@ -182,7 +182,7 @@ createApp({
     addMessage(){
 
         const newMessage = {
-        date: '10/01/2022 18:10:06',
+        date: dt.now().setLocale('it').toLocaleString(dt.DATETIME_SHORT_WITH_SECONDS),
         message: this.newMsgString,
         status: 'send'
       }
@@ -196,14 +196,11 @@ createApp({
     },
     autoRisposta(){
       const newRisposta = {
-        date: '10/01/2022 18:50:00',
+        date: dt.now().setLocale('it').toLocaleString(dt.DATETIME_SHORT_WITH_SECONDS),
         message: 'Ok!',
         status: 'received'
       }
       this.contacts[this.contactActive].messages.push(newRisposta);
     },
-    filteredContact(){
-        this.contacts.filter(this.name);
-    }
   }
 }).mount('#app');
